@@ -19,7 +19,7 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 from wordcloud import WordCloud
 
-df = pd.read_csv(r'C:\Users\rajtr\Desktop\Data Science\Data Sets\train.csv')
+df = pd.read_csv('train.csv')
 st.title('Titanic Data Analysis:ship:')
 st.write(df)
 
